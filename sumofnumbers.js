@@ -1,5 +1,6 @@
 //INPUT TAKEN FROM USER
 
+
 // Import readline module
 //const readline = require("readline");
 
@@ -8,7 +9,6 @@
   input: process.stdin,
   output: process.stdout
 });
-
 // Ask first number
 rl.question("Enter first number: ", (num1) => {
   // Ask second number
