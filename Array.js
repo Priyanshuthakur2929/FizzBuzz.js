@@ -231,4 +231,38 @@ for(let i =0; i<arr.length; i++){
     }*/
 
 
-  
+ /* let arr = [1,2,3,6,4];
+  let max = arr[0];
+  for(let i = 1; i <= arr.length-1; i++){
+    if(max < arr[i]){
+       max = arr[i];
+    }
+  }
+  console.log(max);*/
+
+  /*let arr = [1,2,3,4,5];
+  let sum = 0;
+  for(let i=0; i<arr.length; i++){
+    sum += arr[i];
+  }
+  console.log(sum);*/
+
+ /*function factorial(num){
+  if(num === 0){
+    return 1;
+  }
+  else{
+    return num*factorial(num-1);
+  }
+ }
+console.log(factorial(4));*/
+
+/*let arr = [1,3,3,4,5,77,77,8];
+let original = [];
+for(let i=0; i<arr.length-1;i++){
+  if(!original.includes(arr[i])){
+    original.push(arr[i]);
+  }
+}
+console.log(original);8*/
+
